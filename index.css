@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.content {
+    border: 3px solid grey;
+    width: 1024px;
+    margin: auto;
+}
+
+.flex-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noti {
+    position: absolute;
+    display: grid;
+    background-color: red;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+    color: white;
+}
+
+.avatar {
+    background-image: url(https://pbs.twimg.com/media/F3dSr1JaEAA0iId?format=jpg&name=4096x4096);
+    background-size: cover;
+    overflow: auto;
+    width: 256px;
+    height: 256px;
+    border-radius: 9999px;
+}
+
+.top-item1 {
+    position: relative;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-item2{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 300px);
+    gap: 10px;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-item{
+    background-color: rgb(56, 60, 60);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.on-hover{
+    text-decoration: none;
+    color: black;
+}
+
+.on-hover:hover{
+    text-decoration: underline;
+    color: purple;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>ITF-2</title>
+</head>
+<body>
+    <div class="content">
+        <div class="flex-top">
+            <div class="top-item1">
+                <div class="avatar" id="profile-pic"></div>
+                <div class="noti"><p>50+</p></div>
+            </div>
+            <div style="margin-top: 10px;">
+                <a href="https://twitter.com/mochadree" class="on-hover" target="_blank">
+                    <p id="current_user">Kuqing's gallery</p>
+                </a>
+            </div>
+            <div class="top-item2">
+                <div><label style="margin-right: 5px;">Set your user name</label><input type="text" id="username" style="margin-right: 5px;"><button onclick="set_username()">Set</button></div>
+                <div style="margin-top: 7px;"><label style="margin-right: 5px;">Set profile image URL </label><input type="text" id="img-url" style="margin-right: 5px;"><button onclick="set_profile()">Set</button></div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item" style="grid-column: span 2 / span 2; background-image: url(./images/1.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/2.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/3.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/5.jpg);"></div>
+            <div class="gallery-item" style="grid-row: span 2 / span 3; background-image: url(./images/4.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/6.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/7.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/8.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/9.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(./images/10.png);"></div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
